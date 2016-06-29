@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Add Test">
+    <test name="add" enabled="true" >
+        <parameter name="a" value="1" />
+        <parameter name="b" value="8" />
+        <packages>
+            <package name="Service.AddNumberTest" />
+        </packages>
+        <classes>
+            <class name="Service.AddNumberTest" />
+        </classes>
+    </test>
+
+</suite>

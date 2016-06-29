@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite add">
+    <!--enabled="true"让测试生效，也可根据情况关闭某些测试 -->
+    <test name="add" enabled="true">
+        <!--指定参数 -->
+        <parameter name="a" value="5"/>
+        <parameter name="b" value="4"/>
+        <!--指定测试包 -->
+        <packages>
+            <package name="Service.AddNumberTest"/>
+        </packages>
+        <!--指定测试类 -->
+        <classes>
+            <class name="Service.AddNumberTest"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->

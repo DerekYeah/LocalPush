@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite minus" >
+    <!--enabled="true"让测试生效，也可根据情况关闭某些测试 -->
+    <test name="minus" enabled="true">
+        <!--指定参数 -->
+        <parameter name="a" value="6" />
+        <parameter name="b" value="3" />
+        <!--指定测试包 -->
+        <packages>
+            <package name="Service.MinusNumberTest" />
+        </packages>
+        <!--指定测试类 -->
+        <classes>
+            <class name="Service.MinusNumberTest" />
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
